@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LibraryTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-08-03T18:35:45" hostname="DESKTOP-7PIND26" time="0.581">
+  <properties/>
+  <testcase name="methodLibraryGetAllTest" classname="LibraryTest" time="0.39"/>
+  <testcase name="isGottenBookTheSameBook" classname="LibraryTest" time="0.024"/>
+  <testcase name="bookAddsInTheFirstFreeCell" classname="LibraryTest" time="0.12"/>
+  <testcase name="checkOrderOfBooks" classname="LibraryTest" time="0.026"/>
+  <system-out><![CDATA[Cell #0: {"author":{"name":"TestAuthor0"},"name":"TestBook0"}
+Cell #1: {"author":{"name":"TestAuthor1"},"name":"TestBook1"}
+Cell #2: {"author":{"name":"TestAuthor2"},"name":"TestBook2"}
+Cell #3: {"author":{"name":"TestAuthor3"},"name":"TestBook3"}
+Cell #4: {"author":{"name":"TestAuthor4"},"name":"TestBook4"}
+Book successfully added
+Cell #0: {"author":{"name":"TestAuthor0"},"name":"TestBook0"}
+Cell #1: {"author":{"name":"TestAuthor1"},"name":"TestBook1"}
+Cell #2: {"author":{"name":"TestAuthor2"},"name":"TestBook2"}
+Cell #3: {"author":{"name":"TestAuthor3"},"name":"TestBook3"}
+Cell #4: {"author":{"name":"TestAuthor4"},"name":"TestBook4"}
+Cell #5: {"author":{"name":"TestAuthor"},"name":"TestBook"}
+You try to get book from empty cell
+TestBook0 TestAuthor0
+Cell #0: {"author":{"name":"TestAuthor0"},"name":"TestBook0"}
+TestBook1 TestAuthor1
+Cell #1: {"author":{"name":"TestAuthor1"},"name":"TestBook1"}
+TestBook2 TestAuthor2
+Cell #2: {"author":{"name":"TestAuthor2"},"name":"TestBook2"}
+TestBook3 TestAuthor3
+Cell #3: {"author":{"name":"TestAuthor3"},"name":"TestBook3"}
+TestBook4 TestAuthor4
+Cell #4: {"author":{"name":"TestAuthor4"},"name":"TestBook4"}
+You try to get book from empty cell
+You try to get book from empty cell
+You try to get book from empty cell
+You try to get book from empty cell
+You try to get book from empty cell
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

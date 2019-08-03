@@ -1,0 +1,35 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+subprojects {
+    version = '1.0'
+}
+group 'Library'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+allprojects {
+    repositories {
+        mavenCentral()
+        }
+}
+
+
+dependencies{
+    compile project(':controller')
+    compile project(':models')
+}
+application {
+    mainClassName = 'Application'
+}
+jar {
+    manifest {
+        attributes 'Main-Class': 'Application'
+    }
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}

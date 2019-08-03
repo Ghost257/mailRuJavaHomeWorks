@@ -1,0 +1,28 @@
+?Cell #0: {"author":{"name":"TestAuthor0"},"name":"TestBook0"}
+?Cell #1: {"author":{"name":"TestAuthor1"},"name":"TestBook1"}
+?Cell #2: {"author":{"name":"TestAuthor2"},"name":"TestBook2"}
+?Cell #3: {"author":{"name":"TestAuthor3"},"name":"TestBook3"}
+?Cell #4: {"author":{"name":"TestAuthor4"},"name":"TestBook4"}
+Book successfully added
+?Cell #0: {"author":{"name":"TestAuthor0"},"name":"TestBook0"}
+?Cell #1: {"author":{"name":"TestAuthor1"},"name":"TestBook1"}
+?Cell #2: {"author":{"name":"TestAuthor2"},"name":"TestBook2"}
+?Cell #3: {"author":{"name":"TestAuthor3"},"name":"TestBook3"}
+?Cell #4: {"author":{"name":"TestAuthor4"},"name":"TestBook4"}
+=Cell #5: {"author":{"name":"TestAuthor"},"name":"TestBook"}
+%You try to get book from empty cell
+TestBook0 TestAuthor0
+?Cell #0: {"author":{"name":"TestAuthor0"},"name":"TestBook0"}
+TestBook1 TestAuthor1
+?Cell #1: {"author":{"name":"TestAuthor1"},"name":"TestBook1"}
+TestBook2 TestAuthor2
+?Cell #2: {"author":{"name":"TestAuthor2"},"name":"TestBook2"}
+TestBook3 TestAuthor3
+?Cell #3: {"author":{"name":"TestAuthor3"},"name":"TestBook3"}
+TestBook4 TestAuthor4
+?Cell #4: {"author":{"name":"TestAuthor4"},"name":"TestBook4"}
+%You try to get book from empty cell
+%You try to get book from empty cell
+%You try to get book from empty cell
+%You try to get book from empty cell
+%You try to get book from empty cell
